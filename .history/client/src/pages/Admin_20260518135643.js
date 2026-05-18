@@ -32,11 +32,11 @@ export function renderAdmin(container) {
           </div>
           <div class="campo">
             <label>Descripción *</label>
-            <textarea id="p-desc" rows="2" placeholder="Descripción del producto (mín. 5 caracteres)" style="width:100%;padding:.55rem .8rem;border:2px solid #ddd;border-radius:8px;font-size:.95rem;resize:vertical"></textarea>
+            <textarea id="p-desc" rows="2" placeholder="Descripción del producto (mín. 10 caracteres)" style="width:100%;padding:.55rem .8rem;border:2px solid #ddd;border-radius:8px;font-size:.95rem;resize:vertical"></textarea>
           </div>
           <div class="campo">
             <label>URL Imagen *</label>
-            <input type="text" id="p-imagen" placeholder="https://unsplash.com/es">
+            <input type="text" id="p-imagen" placeholder="https://placehold.co/400x220?text=Carpa">
           </div>
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem">
             <div class="campo">
@@ -71,12 +71,12 @@ export function renderAdmin(container) {
             </div>
             <div class="campo">
               <label>Ciudad *</label>
-              <input type="text" id="s-ciudad" placeholder="Colombia">
+              <input type="text" id="s-ciudad" placeholder="Buenos Aires">
             </div>
           </div>
           <div class="campo">
             <label>Dirección *</label>
-            <input type="text" id="s-direccion" placeholder="Av. Ciudad de cali">
+            <input type="text" id="s-direccion" placeholder="Av. Corrientes 1234">
           </div>
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem">
             <div class="campo">
